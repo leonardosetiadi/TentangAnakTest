@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:provider/single_child_widget.dart';
-import 'package:testing/constant/get_it_instance_name.dart';
-import 'package:testing/feature/store/fruit_store.dart';
-import 'package:testing/utils/injector_helpers.dart';
-import 'package:testing/utils/router.dart';
+
+import 'constant/get_it_instance_name.dart';
+import 'feature/fruit/store/fruit_store.dart';
+import 'util/injector_helpers.dart';
+import 'util/router.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();

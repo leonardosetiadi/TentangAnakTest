@@ -1,4 +1,4 @@
-import 'package:testing/domain/entities/fruit_model.dart';
+import 'fruit_model.dart';
 
 class FruitResponseModel {
   Map<String, dynamic>? imagesReferences;

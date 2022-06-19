@@ -1,10 +1,11 @@
 import 'dart:io';
 
 import 'package:dio/dio.dart';
-import 'package:testing/core/resources/data_state.dart';
-import 'package:testing/data/data_sources/remote/fruit_api_service.dart';
-import 'package:testing/domain/entities/fruit_response_model.dart';
-import 'package:testing/domain/repositories/fruit_repository.dart';
+
+import '../../../abstract/data_state.dart';
+import '../../../domain/fruit/entities/fruit_response_model.dart';
+import '../../../domain/fruit/repositories/fruit_repository.dart';
+import '../data_sources/remote/fruit_api_service.dart';
 
 class FruitRepositoryImpl implements FruitRepository {
   final FruitApiService _fruitApiService;

@@ -1,8 +1,9 @@
 import 'package:flutter/foundation.dart';
-import 'package:testing/core/resources/data_state.dart';
-import 'package:testing/domain/use_cases/get_fruit_use_case.dart';
-import 'package:testing/feature/store/fruit_view_state_store.dart';
-import 'package:testing/mixins/common_store_mixin.dart';
+
+import '../../../abstract/data_state.dart';
+import '../../../domain/fruit/use_cases/get_fruit_use_case.dart';
+import '../../../mixin/common_store_mixin.dart';
+import 'fruit_view_state_store.dart';
 
 class FruitStore extends ChangeNotifier
     with FruitViewStateStore, SingleLoadingStoreMixin, SingleErrorMessageMixin {

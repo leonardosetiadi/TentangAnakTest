@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:testing/feature/store/fruit_store.dart';
+
+import '../store/fruit_store.dart';
 
 class FruitView extends StatefulWidget {
   const FruitView({Key? key}) : super(key: key);

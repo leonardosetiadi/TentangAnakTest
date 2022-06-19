@@ -1,5 +1,6 @@
 import 'package:flutter/foundation.dart';
-import 'package:testing/domain/entities/fruit_model.dart';
+
+import '../../../domain/fruit/entities/fruit_model.dart';
 
 mixin FruitViewStateStore on ChangeNotifier {
   late Map<String, dynamic> _imagesReferences;
