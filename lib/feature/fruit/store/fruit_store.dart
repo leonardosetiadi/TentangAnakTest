@@ -1,8 +1,8 @@
 import 'package:flutter/foundation.dart';
 
-import '../../../abstract/data_state.dart';
+import '../../../abstracts/data_state.dart';
 import '../../../domain/fruit/use_cases/get_fruit_use_case.dart';
-import '../../../mixin/common_store_mixin.dart';
+import '../../../mixins/common_store_mixin.dart';
 import 'fruit_view_state_store.dart';
 
 class FruitStore extends ChangeNotifier

@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:dio/dio.dart';
 
-import '../../../abstract/data_state.dart';
+import '../../../abstracts/data_state.dart';
 import '../../../domain/fruit/entities/fruit_response_model.dart';
 import '../../../domain/fruit/repositories/fruit_repository.dart';
 import '../data_sources/remote/fruit_api_service.dart';

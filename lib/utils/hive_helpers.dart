@@ -1,6 +1,6 @@
 // import 'package:hive/hive.dart';
 //
-// import '../constant/hive_boxes.dart';
+// import '../constants/hive_boxes.dart';
 // import '../models/history.dart';
 // import '../models/phase.dart';
 // import '../models/slide.dart';
