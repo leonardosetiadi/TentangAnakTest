@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:testing/feature/view/fruit_view.dart';
+
+import '../feature/fruit/view/fruit_view.dart';
 
 extension RouteableWidget on Widget {
   WidgetBuilder asBuilder() {
